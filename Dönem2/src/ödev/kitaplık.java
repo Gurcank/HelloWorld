@@ -43,17 +43,17 @@ public class kitaplık {
 			case 6:
 				System.out.println("Aranacak adı giriniz: ");
 				String arananAd=scan.next();
-				kitaplıkFonksiyon.arananAd(ad,yazar,tur,fiyat,sayfa,tarih);
+				kitaplıkFonksiyon.arananAd(ad,yazar,tur,fiyat,sayfa,tarih, arananAd);
 			break;
 			case 7:
 				System.out.println("Silinecek adı giriniz: ");
 				String silinenAd=scan.next();
-				kitaplıkFonksiyon.silinenAd(ad,yazar,tur,fiyat,sayfa,tarih);
+				kitaplıkFonksiyon.silinenAd(ad,yazar,tur,fiyat,sayfa,tarih, arananAd);
 			break;
 			case 8:
 				System.out.println("Düzeltilecek adı giriniz: ");
 				String düzeltilenAd=scan.next();
-				kitaplıkFonksiyon.düzeltilenAd(ad,yazar,tur,fiyat,sayfa,tarih);
+				kitaplıkFonksiyon.düzeltilenAd(ad,yazar,tur,fiyat,sayfa,tarih, arananAd);
 			break;
 			case 9:
 				System.out.println("Çıkış yapılıyor...");

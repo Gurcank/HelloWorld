@@ -1,4 +1,4 @@
-package ödev;
+şıpackage ödev;
 
 import java.util.List;
 import java.util.Scanner;
